@@ -12,16 +12,14 @@
     <artifactId>proto</artifactId>
 
     <properties>
-        <maven.compiler.source>18</maven.compiler.source>
-        <maven.compiler.target>18</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>11</java.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>io.grpc</groupId>
             <artifactId>grpc-protobuf</artifactId>
-            <version>1.49.0</version>
+            <version>1.52.1</version>
         </dependency>
         <dependency>
             <groupId>io.grpc</groupId>
